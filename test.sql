@@ -15,4 +15,5 @@ VALUES
     (3, 'Charlie Brown', 'Sales', '2026-08-22');
 
 
+
 SELECT * FROM employees;
