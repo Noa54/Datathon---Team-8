@@ -51,13 +51,13 @@ The current scoring model assigns greater weight to strong identity evidence:
 
 | Feature             | Weight |
 | ------------------- | -----: |
-| Tax ID match        |     60 |
+| Tax ID match        |     35 |
 | Phone match         |     15 |
-| Date of birth match |     10 |
-| Name similarity     |     10 |
-| Address similarity  |      5 |
+| Date of birth match |     15 |
+| Name similarity     |     25% |
+| Address similarity  |     10% |
 
-The resulting score provides an interpretable measure of matching confidence. The current baseline classifies pairs with a score of **80 or above as `MATCH`** and lower-scoring pairs as `NO_MATCH`.
+The resulting score provides an interpretable measure of matching confidence. The current baseline classifies pairs with a score of **35 or above as `MATCH`** and lower-scoring pairs as `NO_MATCH`.
 
 The final decisions are stored in:
 
@@ -87,11 +87,12 @@ This provides an objective basis for assessing and tuning the matching threshold
 
 ### 6. Current Baseline
 
-The current pipeline generated 121 candidate pairs. Using the initial score threshold of 80, the baseline produced:
+The pipeline generated the following result using the initial score threshold of 30, the baseline produced:
 
-55 MATCH
-66 NO_MATCH
-With threshold = 30, the accuracy is 85.8%
+With threshold = 30,
+103 MATCH
+18 NO_MATCH
+which resulted in the final accuracy score of 103/121= 85.1%
 
 The next optimisation step is to evaluate this baseline against the answer key and test alternative thresholds and matching rules. This allows the team to identify a configuration that provides stronger matching performance while maintaining explainability and auditability.
 
