@@ -14,6 +14,6 @@ VALUES
     (2, 'Bob Jones', 'Marketing', '2026-01-10'),
     (3, 'Charlie Brown', 'Sales', '2026-08-22');
 
-
+--test comment
 
 SELECT * FROM employees;
