@@ -43,7 +43,7 @@ flowchart TD
 
 Blue boxes are inputs, green boxes are processing steps (the dashed box groups the three stages in `fetureEngineer.sql`), and orange boxes are the files written to `output/`. Evaluation (step 4) runs only when the answer key is present. The numbers are from the current data at `match_threshold = 40`.
 
-The SQL files run in this order, all in one in-memory DuckDB database:
+The SQL files run in this order, locally in one in-memory DuckDB database. The same steps written for Snowflake are in `snowflake/` (see [Run on Snowflake](#run-on-snowflake)).
 
 | Step | File | Main tables |
 | --- | --- | --- |
@@ -75,6 +75,34 @@ Outputs, written to `output/`:
 * `threshold_sweep.csv`: the same metrics at each score threshold (requires the answer key).
 * `errors.csv`: every false positive and false negative, for review (requires the answer key).
 * `same_bank_duplicates.csv`: the original CSV rows of the 9 customers held twice in one bank and not at all in the other, with the `cluster_id` they now share (requires the answer key; see [Duplicates inside one bank](#duplicates-inside-one-bank)).
+
+### Run on Snowflake
+
+`snowflake/` holds the same four steps written in Snowflake SQL. They build the same `clean.*` tables with the same rules. They read `BANK.PUBLIC.TOTARA_MUTUAL_CUSTOMERS`, `BANK.PUBLIC.HARBOURSIDE_BANK_CUSTOMERS` and `BANK.PUBLIC.BANK_MERGER_ANSWER_KEY`, and write to the schema `BANK.CLEAN`, replacing any tables there with the same names.
+
+Two ways to run it:
+
+* **Snowsight worksheet:** run `snowflake/clean.sql`, `fetureEngineer.sql`, `goldenRecord.sql` and `finalResult.sql`, in that order.
+* **Runner script:** runs the four files, prints the same checks as `run_local.py`, and writes the same CSVs to `output/snowflake/`. It connects with a connection defined in `~/.snowflake/connections.toml`. The connection needs a warehouse, and a role that can read `BANK.PUBLIC` and create `BANK.CLEAN`.
+
+```bash
+.venv/bin/pip install -r snowflake/requirements.txt
+.venv/bin/python snowflake/run_snowflake.py <connection_name>   # default: "default"
+```
+
+Where the two dialects differ:
+
+| DuckDB (local) | Snowflake |
+| --- | --- |
+| CSV read as text | `clean.raw_totara` / `clean.raw_harbourside` copy every column as text. `CUST_NO` is padded back to 8 digits and postcodes to 4, in case the tables store them as numbers. |
+| `strip_accents`, `damerau_levenshtein` | JavaScript UDFs with the same names. `EDITDISTANCE` would count a swapped digit pair as 2 edits, not 1. |
+| `jaro_winkler_similarity` (0–1) | `JAROWINKLER_SIMILARITY / 100`. The Snowflake function returns whole numbers from 0 to 100, so similarities are rounded to 0.01. |
+| Table macros `links_at` / `clusters_at` | Links and clusters are computed once for every threshold (`clean.links_by_threshold`, `clean.clusters_by_threshold`). The result and the threshold sweep both read from them. |
+| Recursive `UNION` for connected components | Recursive `UNION ALL`. Each path carries the records it has visited, so it cannot loop. |
+| `first(x ORDER BY rank) FILTER (WHERE …)` | `MIN_BY(x, IFF(…, rank, NULL))` |
+| `concat_ws` (skips missing parts) | `ARRAY_TO_STRING(ARRAY_CONSTRUCT_COMPACT(…), sep)`, because Snowflake's `CONCAT_WS` returns NULL when any part is NULL |
+
+Status: the Snowflake files pass a Snowflake-dialect syntax check (sqlglot) but have not yet been run on a Snowflake account. The results below come from the local DuckDB run.
 
 ### 1. Data Cleaning and Standardisation — `clean.sql`
 
