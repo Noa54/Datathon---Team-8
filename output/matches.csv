@@ -1,0 +1,133 @@
+record_a,record_b,pair_type,entity_type,name_a,name_b,dob_a,dob_b,tax_id_a,tax_id_b,street_a,street_b,tax_match,tax_near,tax_conflict,nzbn_match,nzbn_conflict,dob_match,dob_conflict,phone_match,postcode_match,type_conflict,name_similarity,address_similarity,match_score,match_decision
+H:HB-10929,H:HB-11371,H-H,PERSON,wiremu white,wiremu white,1953-03-07,1953-03-07,124254116,,124 harbour ave,124 harbour ave,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+H:HB-10637,H:HB-11370,H-H,PERSON,mateo anderson,mateo anderson,1978-03-04,1978-03-04,105397681,,7 tui tce,7 tui tce,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+H:HB-10065,H:HB-11348,H-H,PERSON,grace hughes,grace hughes,1997-09-16,1997-09-16,135915760,,95 manuka pl,95 manuka pl,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+H:HB-10569,H:HB-11354,H-H,PERSON,benjamin mitchell,ben mitchell,1960-10-19,1960-10-19,101387187,,1 nikau dr,1 nikau dr,,,,,,1,0,1,1,0,0.9119281045751634,1.0,76.19281045751634,MATCH
+H:HB-10755,H:HB-11363,H-H,PERSON,william campbell,bill campbell,2000-07-25,2000-07-25,122850476,,188 marine cres,188 marine cres,,,,,,1,0,1,1,0,0.8354700854700855,1.0,68.54700854700855,MATCH
+H:HB-10114,H:HB-11360,H-H,PERSON,anthony zhang,tony zhang,2006-11-15,2006-11-15,124230787,,202 kereru rd,202 kereru rd,,,,,,1,0,1,1,0,0.7897435897435897,1.0,63.97435897435898,MATCH
+T:00404055,H:HB-11289,T-H,BUSINESS,pacific steel distributors,pacific steel distributors,,,133324964,133324964,244 ranui ave,244 ranui ave,1,0,0,1,0,,,1,1,0,1.0,1.0,165.0,MATCH
+T:00403999,H:HB-11275,T-H,BUSINESS,pukeko transport,pukeko transport,,,100752993,100752993,128 nikau rd,128 nikau rd,1,0,0,1,0,,,1,1,0,1.0,1.0,165.0,MATCH
+T:00404168,H:HB-11322,T-H,BUSINESS,fernbird software,fernbird software,,,122179441,122179441,82 rimu dr,82 rimu dr,1,0,0,1,0,,,1,1,0,1.0,1.0,165.0,MATCH
+T:00404111,H:HB-11311,T-H,BUSINESS,harvest food manufacturing,harvest food manufacturing,,,118856184,118856184,112 great north cres,112 great north cres,1,0,0,1,0,,,1,1,0,1.0,1.0,165.0,MATCH
+T:00401043,H:HB-10991,T-H,PERSON,anthony mitchell,anthony mitchell,1985-06-25,1985-06-25,102062527,102062527,214 albert dr,214 albert dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400446,H:HB-10760,T-H,PERSON,oliver tuilagi,oliver tuilagi,1966-08-15,1966-08-15,114729362,114729362,80 pohutukawa st,80 pohutukawa st,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400609,H:HB-10813,T-H,PERSON,christopher clarke,christopher clarke,1978-03-28,1978-03-28,105679758,105679758,53 seaview pl,53 seaview pl,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400987,H:HB-10956,T-H,PERSON,benjamin taylor,benjamin taylor,1958-12-30,1958-12-30,138029574,138029574,202 kauri tce,202 kauri tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401208,H:HB-11022,T-H,PERSON,tane campbell,tane campbell,1971-07-26,1971-07-26,125898424,125898424,13 ranui rd,13 ranui rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400875,H:HB-10914,T-H,PERSON,jack stewart,jack stewart,2004-03-14,2004-03-14,106923747,106923747,196 victoria tce,196 victoria tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401352,H:HB-11060,T-H,PERSON,rachel te rangi,rachel te rangi,1946-03-22,1946-03-22,121903743,121903743,214 harbour pl,214 harbour pl,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400967,H:HB-10947,T-H,PERSON,arjun fitzgerald,arjun fitzgerald,1969-09-14,1969-09-14,134120186,134120186,202 great north dr,202 great north dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401281,H:HB-11034,T-H,PERSON,naomi kim,naomi kim,1994-11-09,1994-11-09,118531608,118531608,5/51 great north dr,5/51 great north dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400891,H:HB-10929,T-H,PERSON,wiremu white,wiremu white,1953-03-07,1953-03-07,124254116,124254116,124 harbour ave,124 harbour ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400713,H:HB-10854,T-H,PERSON,ruby smith,ruby smith,1986-01-30,1986-01-30,134181639,134181639,12/177 queen ave,12/177 queen ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400110,H:HB-10657,T-H,PERSON,sarah parata,sarah parata,1997-06-17,1997-06-17,112594245,112594245,129 kauri pl,129 kauri pl,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401237,H:HB-11023,T-H,PERSON,richard white,richard white,1998-07-11,1998-07-11,117696984,117696984,11/121 nikau rd,11/121 nikau rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400561,H:HB-10800,T-H,PERSON,thomas smith,thomas smith,1987-10-27,1987-10-27,125748643,125748643,4/161 marine tce,4/161 marine tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401087,H:HB-10997,T-H,PERSON,mohammed zhang,mohammed zhang,1970-04-08,1970-04-08,114900615,114900615,217 ranui cres,217 ranui cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401152,H:HB-11013,T-H,PERSON,helen robinson,helen robinson,1963-01-31,1963-01-31,104519751,104519751,11 church st,11 church st,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401518,H:HB-11111,T-H,PERSON,aisha fitzgerald,aisha fitzgerald,1964-12-03,1964-12-03,130147776,130147776,52 totara cres,52 totara cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400587,H:HB-10804,T-H,PERSON,michael mcdonald,michael mcdonald,1944-02-18,1944-02-18,106103724,106103724,31 seaview ave,31 seaview ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400489,H:HB-10774,T-H,PERSON,aisha macleod,aisha macleod,1998-11-29,1998-11-29,117121944,117121944,4/116 matai dr,4/116 matai dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401378,H:HB-11062,T-H,PERSON,rawiri rossi,rawiri rossi,2003-06-21,2003-06-21,113107372,113107372,188 matai dr,188 matai dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401331,H:HB-11047,T-H,PERSON,emily li,emily li,1968-04-05,1968-04-05,107277817,107277817,30 ranui pl,30 ranui pl,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401398,H:HB-11071,T-H,PERSON,peter macleod,peter macleod,1980-01-08,1980-01-08,100807135,100807135,71 clyde rd,71 clyde rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400811,H:HB-10895,T-H,PERSON,arjun scott,arjun scott,1971-05-25,1971-05-25,119921924,119921924,169 clyde rd,169 clyde rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400788,H:HB-10871,T-H,PERSON,aroha clarke,aroha clarke,1944-02-14,1944-02-14,104744932,104744932,4 matai tce,4 matai tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400942,H:HB-10939,T-H,PERSON,sarah te rangi,sarah te rangi,1967-01-15,1967-01-15,126165924,126165924,116 albert dr,116 albert dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401350,H:HB-11053,T-H,PERSON,ruby johansson,ruby johansson,1993-09-29,1993-09-29,101362760,101362760,225 park dr,225 park dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401135,H:HB-11007,T-H,PERSON,priya johansson,priya johansson,1991-12-09,1991-12-09,133939968,133939968,133 victoria rd,133 victoria rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400040,H:HB-10640,T-H,PERSON,aisha te rangi,aisha te rangi,1954-11-20,1954-11-20,123930825,123930825,211 totara cres,211 totara cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400462,H:HB-10766,T-H,PERSON,sarah brown,sarah brown,1982-01-31,1982-01-31,124069741,124069741,6/128 seaview tce,6/128 seaview tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400348,H:HB-10728,T-H,PERSON,sophie johansson,sophie johansson,1998-10-26,1998-10-26,129524056,129524056,157 church tce,157 church tce,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400948,H:HB-10942,T-H,PERSON,losa williams,losa williams,1984-07-22,1984-07-22,130694216,130694216,10/35 matai pl,10/35 matai pl,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400767,H:HB-10865,T-H,PERSON,sophie van der berg,sophie van der berg,1979-04-21,1979-04-21,136967480,136967480,203 beach ave,203 beach ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401538,H:HB-11119,T-H,PERSON,anthony rossi,anthony rossi,1969-02-10,1969-02-10,111579024,111579024,186 kauri ave,186 kauri ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400590,H:HB-10808,T-H,PERSON,james anderson,james anderson,2005-12-14,2005-12-14,135524895,135524895,20 hill st,20 hill st,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401387,H:HB-11069,T-H,PERSON,arjun parata,arjun parata,1955-04-09,1955-04-09,123106244,123106244,241 totara ave,241 totara ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401267,H:HB-11026,T-H,PERSON,oliver white,oliver white,1968-10-27,1968-10-27,132391321,132391321,195 station cres,195 station cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400642,H:HB-10823,T-H,PERSON,anna wilson,anna wilson,1996-04-26,1996-04-26,110669780,110669780,39 beach ave,39 beach ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400645,H:HB-10829,T-H,PERSON,mohammed johansson,mohammed johansson,1967-08-05,1967-08-05,114294905,114294905,7/219 marine cres,7/219 marine cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400505,H:HB-10775,T-H,PERSON,james campbell,james campbell,1985-10-25,1985-10-25,112341215,112341215,228 church rd,228 church rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400558,H:HB-10796,T-H,PERSON,aisha young,aisha young,1958-09-29,1958-09-29,133085608,133085608,109 ranui rd,109 ranui rd,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400877,H:HB-10923,T-H,PERSON,arjun fitzgerald,arjun fitzgerald,1973-01-12,1973-01-12,124601755,124601755,17 marine ave,17 marine ave,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00401071,H:HB-10996,T-H,PERSON,charlotte tuhiwai,charlotte tuhiwai,1979-04-03,1979-04-03,117745489,117745489,3/87 hill cres,3/87 hill cres,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400176,H:HB-10680,T-H,PERSON,charlotte van der berg,charlotte van der berg,1942-03-31,1942-03-31,134005406,134005406,56 kowhai dr,56 kowhai dr,1,0,0,,,1,0,1,1,0,1.0,1.0,135.0,MATCH
+T:00400545,H:HB-10790,T-H,PERSON,tane malceod,tane macleod,1987-05-21,1987-05-21,113386279,113386279,4/22 victoria rd,4/22 victoria rd,1,0,0,,,1,0,1,1,0,0.9833333333333333,1.0,133.33333333333331,MATCH
+T:00400288,H:HB-10719,T-H,PERSON,sinoe li,sione li,1992-10-25,1992-10-25,106020145,106020145,140 rata dr,140 rata dr,1,0,0,,,1,0,1,1,0,0.9666666666666667,1.0,131.66666666666669,MATCH
+T:00400665,H:HB-10841,T-H,PERSON,mei wilson,mei wilson,2005-03-13,2005-03-13,123048146,123048146,7/187 queen dr,133 queen rd,1,0,0,,,1,0,1,1,0,1.0,0.815873015873016,125.0,MATCH
+T:00400120,H:HB-10662,T-H,PERSON,ananya young,ananya fonoti,1968-12-29,1968-12-29,127534627,127534627,26 kereru ave,26 kereru ave,1,0,0,,,1,0,1,1,0,0.8884615384615385,1.0,123.84615384615387,MATCH
+T:00400998,H:HB-10964,T-H,PERSON,w hughes,william hughes,1984-02-19,1984-02-19,129486543,129486543,84 queen cres,84 queen cres,1,0,0,,,1,0,1,1,0,0.8714285714285714,1.0,122.14285714285715,MATCH
+T:00400280,H:HB-10715,T-H,PERSON,rick anderson,richard anderson,2005-04-28,2005-04-28,115874576,115874576,88 totara rd,88 totara rd,1,0,0,,,1,0,1,1,0,0.8653846153846155,1.0,121.53846153846156,MATCH
+T:00401278,H:HB-11030,T-H,PERSON,jen te rangi,jennifer te rangi,1994-03-29,1994-03-29,118506340,118506340,44 matai tce,44 matai tce,1,0,0,,,1,0,1,1,0,0.85359477124183,1.0,120.359477124183,MATCH
+T:00400755,H:HB-10862,T-H,PERSON,matthew hughes,matthew hughes,2003-05-18,2003-05-18,103257687,103257687,53 manuka cres,116 kowhai cres,1,0,0,,,1,0,1,0,0,1.0,0.6599206349206349,120.0,MATCH
+T:00400031,H:HB-10637,T-H,PERSON,mateo anderson,mateo anderson,1978-03-04,1978-03-04,105397681,105397681,167 albert dr,7 tui tce,1,0,0,,,1,0,1,0,0,1.0,0.58005698005698,120.0,MATCH
+T:00400803,H:HB-10879,T-H,PERSON,william faleolo,william faleolo,1991-11-29,1991-11-29,105045208,105045208,227 victoria tce,141 seaview pl,1,0,0,,,1,0,1,0,0,1.0,0.4900793650793651,120.0,MATCH
+T:00400358,H:HB-10734,T-H,PERSON,kiri johansson,kiri johansson,1997-06-27,1997-06-27,108182204,108182204,94 nikau st,15 rata rd,1,0,0,,,1,0,1,0,0,1.0,0.5242424242424243,120.0,MATCH
+T:00400523,H:HB-10786,T-H,PERSON,samuel tipene,samuel tipene,1980-12-27,1980-12-27,100318736,100318736,135 clyde cres,123 victoria rd,1,0,0,,,1,0,1,0,0,1.0,0.5539682539682539,120.0,MATCH
+T:00400187,H:HB-10683,T-H,PERSON,mateo wang,mateo wang,1947-07-26,1947-07-26,124317923,124317923,67 matai ave,163 tui cres,1,0,0,,,1,0,1,0,0,1.0,0.6666666666666666,120.0,MATCH
+T:00400061,H:HB-10645,T-H,PERSON,aroha wilson,aroha wilson,2006-12-12,2006-12-12,102549812,102549812,199 great north pl,29 kowhai st,1,0,0,,,1,0,1,0,0,1.0,0.5621693121693122,120.0,MATCH
+T:00400368,H:HB-10735,T-H,PERSON,margaret campbell,margaret campbell,1954-08-06,1954-08-06,108557312,108557312,2 clyde dr,9 matai cres,1,0,0,,,1,0,1,0,0,1.0,0.49444444444444446,120.0,MATCH
+T:00400806,H:HB-10888,T-H,PERSON,sophie nguyen,sophie nguyen,1985-05-06,1985-05-06,137906396,137906396,8/174 pohutukawa tce,41 hill dr,1,0,0,,,1,0,1,0,0,1.0,0.5166666666666667,120.0,MATCH
+T:00401298,H:HB-11037,T-H,PERSON,anthony brown,anthony brown,1955-10-16,1955-10-16,114450199,114450199,155 hill tce,46 totara cres,1,0,0,,,1,0,1,0,0,1.0,0.5246031746031746,120.0,MATCH
+T:00400081,H:HB-10651,T-H,PERSON,james willaims,james williams,1946-08-09,1946-08-09,107596421,107596421,139 tui ave,153 kowhai tce,1,0,0,,,1,0,1,0,0,0.9857142857142858,0.6645021645021645,118.57142857142858,MATCH
+T:00401505,H:HB-11103,T-H,PERSON,fiona macleod,fiona smith,1966-03-13,1966-03-13,124865694,124865694,210 harbour tce,210 harbour tce,1,0,0,,,1,0,1,1,0,0.834965034965035,1.0,118.49650349650351,MATCH
+T:00401023,H:HB-10973,T-H,PERSON,zoe tipene,zoe tipene,1984-09-04,1984-09-04,127165264,127165264,44 matai st,44 matai st,1,0,0,,,1,0,0,1,0,1.0,1.0,115.0,MATCH
+T:00404014,H:HB-11283,T-H,BUSINESS,tasman vineyards,tasman vineyards,,,135450288,135450288,90 tui rd,90 tui rd,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00404214,H:HB-11343,T-H,BUSINESS,kea couriers,kea couriers,,,133207488,133207488,235 rata rd,2/235 rata rd,1,0,0,,,,,1,1,0,1.0,0.9538461538461539,115.0,MATCH
+T:00404180,H:HB-11326,T-H,BUSINESS,waitemata marine services,waitemata marine services,,,136062383,136062383,83 victoria rd,83 victoria rd,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00403993,H:HB-11268,T-H,BUSINESS,kauri joinery,kauri joinery,,,114099168,114099168,72 tui tce,72 tui tce,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00404139,H:HB-11315,T-H,BUSINESS,kowhai physio,kowhai physiotherapy,,,121410752,121410752,206 ranui pl,206 ranui pl,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00404116,H:HB-11312,T-H,BUSINESS,moana dental group,moana dental group,,,101102958,101102958,140 hill cres,140 hill cres,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00404209,H:HB-11341,T-H,BUSINESS,riverstone veterinary clinic,riverstone veterinary clinic,,,114918527,114918527,18 totara st,18 totara st,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00401464,H:HB-11093,T-H,PERSON,nikolai campbell,nikolai campbell,1958-01-08,1958-01-08,124577934,124577934,162 clyde ave,162 clyde ave,1,0,0,,,1,0,0,1,0,1.0,1.0,115.0,MATCH
+T:00401029,H:HB-10981,T-H,PERSON,xin wang,xin wang,1971-05-21,1971-05-21,129643391,129643391,1/103 pohutukawa ave,1/103 pohutukawa ave,1,0,0,,,1,0,0,1,0,1.0,1.0,115.0,MATCH
+T:00404040,H:HB-11284,T-H,BUSINESS,summit roofing supplies,summit roofing supplies,,,131036371,131036371,229 manuka pl,229 manuka pl,1,0,0,,,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00401486,H:HB-11094,T-H,PERSON,susan clarke,susan clarke,1992-02-16,1992-02-16,112682929,112682929,97 hill ave,97 hill ave,1,0,0,,,1,0,0,1,0,1.0,1.0,115.0,MATCH
+T:00404083,H:HB-11306,T-H,BUSINESS,lakeside motor group,lakeside motor group,,,,123976974,145 kauri rd,145 kauri rd,,,,1,0,,,1,1,0,1.0,1.0,115.0,MATCH
+T:00401423,H:HB-11080,T-H,PERSON,tony chen,anthony chen,1995-02-12,1995-02-12,107928211,107928211,10/168 station rd,10/168 station rd,1,0,0,,,1,0,1,1,0,0.7685185185185185,1.0,111.85185185185185,MATCH
+T:00400735,H:HB-10856,T-H,PERSON,josh faleolo,joshua faleolo,2007-12-25,2007-12-25,130382205,130382205,96 ranui cres,96 ranui cres,1,0,0,,,1,0,0,1,0,0.9547619047619047,1.0,110.47619047619048,MATCH
+T:00400252,H:HB-10703,T-H,PERSON,jen wang,jennifer wang,1998-03-09,1998-03-09,135329679,135329679,47 church tce,8/80 pohutukawa cres,1,0,0,,,1,0,1,1,0,0.8519230769230769,0.5818681318681319,110.1923076923077,MATCH
+T:00400827,H:HB-10904,T-H,PERSON,jennifer reid,jennifer patel,1969-09-04,1969-09-04,125341510,125341510,78 manuka st,6/159 queen st,1,0,0,,,1,0,1,0,0,0.8967032967032967,0.5873015873015873,109.67032967032968,MATCH
+T:00400155,H:HB-10674,T-H,PERSON,steve williams,stephen williams,1974-02-25,1974-02-25,109443176,109443716,188 matai dr,188 matai dr,0,1,0,,,1,0,1,1,0,0.9395833333333334,1.0,108.95833333333334,MATCH
+T:00400631,H:HB-10814,T-H,PERSON,jess wilson,jessica wilson,1950-09-27,1950-09-27,106452900,106452900,72 rata rd,72 rata rd,1,0,0,,,1,0,0,1,0,0.9389610389610389,1.0,108.8961038961039,MATCH
+T:00404189,H:HB-11334,T-H,BUSINESS,northcote bakery,northcote bakery,,,130727715,130727715,68 station tce,71 marine dr,1,0,0,,,,,1,1,0,1.0,0.5873015873015873,105.0,MATCH
+T:00400212,H:HB-10691,T-H,PERSON,aisha taylor,aisha taylor,1989-04-06,1989-04-06,120591774,120591774,6/156 queen rd,4/193 tui pl,1,0,0,,,1,0,0,0,0,1.0,0.5912698412698413,100.0,MATCH
+T:00400789,H:HB-10876,T-H,PERSON,helen young,helen young,1979-05-09,1979-05-09,122645261,126245261,108 totara rd,86 park st,0,1,0,,,1,0,1,0,0,1.0,0.5760683760683761,100.0,MATCH
+T:00404197,H:HB-11335,T-H,BUSINESS,tui brewing collective,tui brewing collective,,,116153314,116153314,179 hill tce,6/137 clyde cres,1,0,0,,,,,1,0,0,1.0,0.5783730158730159,100.0,MATCH
+T:00404122,H:HB-11314,T-H,BUSINESS,ruru accounting,ruru accounting,,,117630673,117630673,182 great north rd,108 marine ave,1,0,0,,,,,1,0,0,1.0,0.5886243386243386,100.0,MATCH
+T:00401105,H:HB-10998,T-H,PERSON,wei kim,wei kim,1982-05-03,1982-05-03,,107224505,128 clyde rd,128 clyde rd,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00401450,H:HB-11085,T-H,PERSON,tane taylor,tane taylor,1983-07-15,1983-07-15,,122936230,157 kereru cres,157 kereru cres,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400409,H:HB-10746,T-H,PERSON,xin wilson,xin wilson,1947-08-22,1947-08-22,,101630413,74 nikau ave,74 nikau ave,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400518,H:HB-10780,T-H,PERSON,jennifer williams,jennifer williams,1964-10-10,1964-10-10,,112892721,10 park st,10 park st,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400891,H:HB-11371,T-H,PERSON,wiremu white,wiremu white,1953-03-07,1953-03-07,124254116,,124 harbour ave,124 harbour ave,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400917,H:HB-10935,T-H,PERSON,zoe young,zoe young,1967-04-06,1967-04-06,116693619,,79 ranui st,79 ranui st,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400336,H:HB-10727,T-H,PERSON,jessica macleod,jessica macleod,1948-09-10,1948-09-10,,136902876,1/201 nikau cres,1/201 nikau cres,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400846,H:HB-10911,T-H,PERSON,sophie faleolo,sophie faleolo,1951-06-29,1951-06-29,138594635,,1/198 clyde pl,1/198 clyde pl,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400470,H:HB-10769,T-H,PERSON,jun tuilagi,jun tuilagi,1973-12-14,1973-12-14,,137762876,223 totara st,223 totara st,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400002,H:HB-10636,T-H,PERSON,zoe nguyen,zoe nguyen,1992-07-22,1992-07-22,,120690351,52 victoria st,52 victoria st,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00400416,H:HB-10755,T-H,PERSON,iwlliam campbell,william campbell,2000-07-25,2000-07-25,,122850476,188 marine cres,188 marine cres,,,,,,1,0,1,1,0,0.9791666666666666,1.0,82.91666666666667,MATCH
+T:00401453,H:HB-11091,T-H,PERSON,dave fonoti,david fonoti,2000-01-26,2000-01-26,,111264010,46 nikau tce,46 nikau tce,,,,,,1,0,1,1,0,0.9398989898989898,1.0,78.98989898989899,MATCH
+T:00400160,H:HB-10678,T-H,PERSON,rachel harris,rachel chen,1948-06-16,1948-06-16,,121413063,218 albert st,218 albert st,,,,,,1,0,1,1,0,0.8685314685314686,1.0,71.85314685314685,MATCH
+T:00400859,H:HB-10913,T-H,PERSON,lucy white,lucy white,1973-04-14,1973-04-14,,136117149,137 kauri st,69 seaview ave,,,,,,1,0,1,0,0,1.0,0.5396825396825397,70.0,MATCH
+T:00400664,H:HB-10833,T-H,PERSON,olivia williams,olivia williams,1997-01-01,1997-01-01,,133190748,2/121 rata cres,154 kereru dr,,,,,,1,0,1,0,0,1.0,0.5649572649572651,70.0,MATCH
+T:00400697,H:HB-10845,T-H,PERSON,james sharma,james sharma,1940-03-17,1940-03-17,,116060295,69 marine tce,78 totara dr,,,,,,1,0,1,0,0,1.0,0.46709401709401704,70.0,MATCH
+T:00400311,H:HB-10724,T-H,PERSON,anna van der berg,anna van der berg,1990-09-24,1990-09-24,123222712,,89 church ave,153 park dr,,,,,,1,0,1,0,0,1.0,0.47377622377622375,70.0,MATCH
+T:00401503,H:HB-11098,T-H,PERSON,anahera tipene,anahera tipene,1986-07-13,1986-07-13,130632214,,4/220 matai rd,161 matai cres,,,,,,1,0,1,0,0,1.0,0.7142857142857143,70.0,MATCH
+T:00400384,H:HB-10740,T-H,PERSON,tevita robinson,tevita robinson,1960-09-30,1960-09-30,,129107302,3/109 marine dr,201 seaview pl,,,,,,1,0,1,0,0,1.0,0.5603174603174603,70.0,MATCH
+T:00401180,H:HB-11015,T-H,PERSON,luca mcdonald,luca mcdonald,1965-01-21,1965-01-21,,135061344,229 marine dr,23 queen cres,,,,,,1,0,1,0,0,1.0,0.5854700854700855,70.0,MATCH
+T:00401542,H:HB-11121,T-H,PERSON,aisha harris,aisha harris,1991-11-24,1991-11-24,,107384377,115 park tce,88 kauri st,,,,,,1,0,1,0,0,1.0,0.6262626262626263,70.0,MATCH
+T:00401307,H:HB-11046,T-H,PERSON,charltote clarke,charlotte clarke,1979-07-27,1979-07-27,,119514599,67 pohutukawa st,63 clyde cres,,,,,,1,0,1,0,0,0.9874999999999999,0.5192307692307693,68.75,MATCH
+T:00400416,H:HB-11363,T-H,PERSON,iwlliam campbell,bill campbell,2000-07-25,2000-07-25,,,188 marine cres,188 marine cres,,,,,,1,0,1,1,0,0.8354700854700855,1.0,68.54700854700855,MATCH
+T:00400673,H:HB-10843,T-H,PERSON,grace pohatu,grace nguyen,1951-10-09,1951-10-09,,129259312,50 albert cres,50 albert cres,,,,,,1,0,1,1,0,0.8333333333333334,1.0,68.33333333333334,MATCH
+T:00401033,H:HB-10982,T-H,PERSON,rawiri wang,rawiri wang,1959-05-13,1959-05-13,,,167 rata cres,167 rata cres,,,,,,1,0,0,1,0,1.0,1.0,65.0,MATCH
+T:00404063,H:HB-11297,T-H,BUSINESS,rangitoto security services,rangitoto security services,,,,102951568,223 totara dr,12/223 totara dr,,,,,,,,1,1,0,1.0,0.9375,65.0,MATCH
+T:00404206,H:HB-11339,T-H,BUSINESS,highland property management,highland property management,,,,134310586,18 kauri st,18 kauri st,,,,,,,,1,1,0,1.0,1.0,65.0,MATCH
+T:00400272,H:HB-10710,T-H,PERSON,hannah anderson,hannah anderson,1967-09-11,1967-09-11,133500222,,82 nikau pl,82 nikau pl,,,,,,1,0,0,1,0,1.0,1.0,65.0,MATCH
+T:00400231,H:HB-10696,T-H,PERSON,susan brown,susan brown,1957-06-19,1957-06-19,,132047768,48 marine cres,48 marine cres,,,,,,1,0,0,1,0,1.0,1.0,65.0,MATCH
+T:00400138,H:HB-10671,T-H,PERSON,kate rossi,katherine rossi,1961-04-30,1961-04-30,,,194 tui ave,194 tui ave,,,,,,1,0,0,1,0,0.8755555555555556,1.0,52.55555555555557,MATCH
+T:00402830,T:00404550,T-T,PERSON,mei scott,mei scott,1990-12-01,1990-12-01,139822644,,231 victoria pl,231 victoria pl,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00401592,T:00404631,T-T,PERSON,david pohatu,david pohatu,1946-09-18,1946-09-18,136825604,,11/235 totara tce,11/235 totara tce,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00403447,T:00404576,T-T,PERSON,isla te rangi,isla te rangi,1956-02-29,1956-02-29,116326348,,15 marine pl,15 marine pl,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00403239,T:00404533,T-T,PERSON,rawiri scott,rawiri scott,1949-06-10,1949-06-10,100698827,,202 victoria dr,202 victoria dr,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00402614,T:00404605,T-T,PERSON,sam ahmed,sam ahmed,1944-05-09,1944-05-09,136616582,,147 church rd,147 church rd,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH
+T:00402453,T:00404564,T-T,PERSON,amelia wilson,amelia wilson,2001-09-05,2001-09-05,124354133,,148 queen ave,148 queen ave,,,,,,1,0,1,1,0,1.0,1.0,85.0,MATCH

@@ -1,6 +1,3 @@
 .venv/
-output/
 *.duckdb
 .DS_Store
-# answer key: export from Snowflake locally, do not publish
-bank_merger_answer_key.csv

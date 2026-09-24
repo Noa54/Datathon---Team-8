@@ -1,0 +1,7 @@
+segment,tp,fp,fn,precision,recall,f1
+ALL,133,0,0,1.0,1.0,1.0
+BUSINESS,18,0,0,1.0,1.0,1.0
+PERSON,115,0,0,1.0,1.0,1.0
+pairs H-H,6,0,0,1.0,1.0,1.0
+pairs T-H,121,0,0,1.0,1.0,1.0
+pairs T-T,6,0,0,1.0,1.0,1.0
